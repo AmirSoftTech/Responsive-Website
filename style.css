@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background: url("bg.jpg")no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+/*Menu code start here*/
+.navbar-default {
+    background-color: #0005;
+    border-color: transparent;
+}
+
+.navbar-default 
+.navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default 
+.navbar-nav>li>a:hover {
+    background: green;
+}
+
+/*Image gallary start*/
+
+	
+}
+
+.dev-team{
+	
+
+
+}
+
+.dev-team h2{
+	text-align: center;
+	font-size: 24px;
+}
+
+.dev-team p{
+	font-size: 16px;
+
+}
+
+.gallary {
+		padding-top: 50px;
+
+}
+
+.gallary img{
+	width: 100%;
+}
+
+.gallary h2,p{
+	text-align: center;
+
+}
+
+.gallary p{
+	font-size: 18px;
+	color: #fff;
+}
+
+.gallary h2{
+	font-size: 24px;
+	color: #fff;
+}
+
+
+.gallary img{
+	border-radius: 50%;
+}
+
+.overlay{
+	background-color: #0005;
+	width: 288px;
+	height: 255px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	display: none;
+
+}
+
+.overlay h1{
+	padding: 75px 40px;
+}
+
+.gallary:hover .overlay {
+	display: block;
+}
+
+
+
+/*Footer CSS start here */
+#footer {
+	background: #0008;
+	color: #fff;
+	padding:10px;
+	text-align: center;
+	position: fixed;
+	font-size: 14px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+

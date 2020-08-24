@@ -1,0 +1,16 @@
+@media screen and  (max-width: 768px){
+  .gallary{
+    	max-width: 300px;
+    	margin: 0 auto;
+    
+    }
+
+ }
+
+@media screen and  (max-width: 990px){
+   .gallary img{
+    	width: 250px;
+     
+    }
+    
+}
